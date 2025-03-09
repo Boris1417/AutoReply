@@ -1,20 +1,25 @@
 import axios from "axios";
 
 const searchParams = {
-  text: "Biolog",
+  text: "Frontend",
   search_field: "name",
   period: 1,
   per_page: 99,
 };
+const headers =  localStorage.getItem("userAccessToken") ? {
+  Authorization: `Bearer ${localStorage.getItem("userAccessToken")}`,
+  "Content-Type": "application/json",
+  "HH-User-Agent": "MyApp",
+} : {
+  "Content-Type": "application/json",
+  "HH-User-Agent": "MyApp",
+}
+
 
 const hhAxiosInstance = axios.create({
   baseURL: "https://api.hh.ru",
   timeout: 1000,
-  headers: {
-    Authorization: `Bearer ${localStorage.getItem("userAccessToken")}`,
-    "Content-Type": "application/json",
-    "HH-User-Agent": "MyApp",
-  },
+  headers: headers,
 });
 
 export const getVacancies = async () => {
