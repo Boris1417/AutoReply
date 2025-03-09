@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  font-size: 18px;
+  padding: 25px;
+  border-radius: 30px;
+  border: 2px solid #dce3eb;
+  &:hover{ 
+    border: 2px solid #437dc0;
+  }
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.focuscard{ 
+  border: 2px solid #0018f5;
+  box-shadow:  #9fa6e2 1.95px 1.95px 2.6px;
+  &:hover{ 
+    border: 2px solid #0018f5;
+  }
+}

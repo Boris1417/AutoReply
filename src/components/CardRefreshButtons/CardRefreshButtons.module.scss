@@ -1,0 +1,12 @@
+.containter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  .refresh {
+    background: transparent;
+    img {
+      height: 50px;
+      width: auto;
+    }
+  }
+}

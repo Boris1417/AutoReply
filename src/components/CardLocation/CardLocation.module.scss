@@ -1,0 +1,11 @@
+.location {
+  font-size: 16px;
+  margin-top: 8px;
+  display: flex;
+  line-height: 18px;
+  align-items: start;
+  justify-content: space-between;
+  .city {
+    white-space: nowrap;
+  }
+}

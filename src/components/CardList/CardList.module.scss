@@ -1,0 +1,24 @@
+.left {
+  min-width: 326px;
+  flex: 0 0 30%;
+  border-right: 1px solid #dce3eb;
+  
+  ul {
+    display: block;
+    padding-top: 10px;
+    border-top: 1px solid #dce3eb;
+    border-bottom: 1px solid #dce3eb;
+    overflow:auto;
+    overflow-x: hidden;
+    height: calc(85vh - 75px);
+    li {
+      margin: 0 15px 20px 5px;
+    }
+    .notVacancy {
+      text-align: center;
+      font-size: 50px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+  }
+}

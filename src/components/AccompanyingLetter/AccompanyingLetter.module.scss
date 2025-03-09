@@ -1,0 +1,25 @@
+.container {
+  padding: 0 30px;
+  flex: 0 1 50%;
+  border-right: 1px solid #dce3eb;
+  .changeButons {
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+  }
+  .buttonsList {
+    &::-webkit-scrollbar {
+      width: 0;
+    }
+    border: 2px solid #c3daf5;
+    padding: 16px;
+    border-radius: 30px;
+    height: calc(50vh - 75px);
+    overflow: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    row-gap: 20px;
+  }
+}

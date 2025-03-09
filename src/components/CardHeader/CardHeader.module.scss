@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  .header {
+    font-weight: bold;
+  }
+
+  .image {
+    width: 30px;
+    overflow: hidden;
+    img {
+      max-width: 100%;
+    }
+  }
+  
+}

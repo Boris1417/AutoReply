@@ -1,0 +1,28 @@
+.header {
+  background-color: rgba(#dce3eb, 0.5);
+
+  .container {
+    display: flex;
+    padding: 5px 20px 10px 0px;
+
+    .companyName {
+      flex: 0 0 30%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      justify-content: end;
+        img {
+          height: 40px;
+          width: auto;
+        }
+    }
+
+    .button {
+      flex: 0 0 70%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "./reset.css";
+
+body {
+  overflow: hidden;
+  height: 85vh;
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+}
+  
